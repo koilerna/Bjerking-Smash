@@ -1,114 +1,60 @@
-<!DOCTYPE html>
-<html lang="sv">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Bjerking Smash</title>
-
-<style>
-body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#e7e3e1;
-    color:#111;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e7e3e1;
+    color: #111;
 }
 
-.container{
-    max-width:900px;
-    margin:auto;
-    padding:30px;
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px;
 }
 
-.hero{
-    text-align:center;
-    margin-bottom:30px;
+.hero {
+    text-align: center;
+    margin: 30px 0;
 }
 
-.hero h1{
-    font-size:48px;
-    margin-bottom:10px;
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 8px;
 }
 
-.hero p{
-    font-size:20px;
+.hero p {
+    color: #555;
+    font-size: 18px;
 }
 
-.card{
-    background:white;
-    padding:20px;
-    border-radius:16px;
-    margin-bottom:20px;
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-.rank{
-    display:flex;
-    justify-content:space-between;
-    padding:8px 0;
+.card h2 {
+    margin-top: 0;
 }
 
-.button{
-    background:#111;
-    color:white;
-    text-decoration:none;
-    padding:15px 25px;
-    border-radius:10px;
-    display:inline-block;
-    margin-top:10px;
+.rank-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
 }
-</style>
-</head>
 
-<body>
+.button {
+    display: inline-block;
+    background: #111;
+    color: white;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
 
-<div class="container">
-
-<div class="hero">
-<h1>🏓 Bjerking Smash</h1>
-<p>Spela. Registrera. Klättra.</p>
-</div>
-
-<div class="card">
-<h2>🏆 Ranking</h2>
-
-<div class="rank">
-<span>1. Jonas Samuelsson</span>
-<span>1642</span>
-</div>
-
-<div class="rank">
-<span>2. Saku Heikkilä</span>
-<span>1615</span>
-</div>
-
-<div class="rank">
-<span>3. Karl Nittve</span>
-<span>1588</span>
-</div>
-
-</div>
-
-<div class="card">
-<h2>🏓 Senaste matcher</h2>
-
-<p>Jonas 3-1 Saku</p>
-<p>Karl 3-2 Michel</p>
-<p>David 3-0 Humayoon</p>
-
-</div>
-
-<div class="card">
-<h2>🔥 Formstarkast</h2>
-
-<p>Karl Nittve +87 ELO</p>
-
-#
-Registrera match
-</a>
-
-</div>
-
-</div>
-
-</body>
-</html>
+.button:hover {
+    opacity: 0.9;
+}
