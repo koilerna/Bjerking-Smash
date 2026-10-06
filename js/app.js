@@ -1,0 +1,1 @@
+console.log("Bjerking Smash");
