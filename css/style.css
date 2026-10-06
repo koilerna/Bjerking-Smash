@@ -1,1 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e7e3e1;
+    color: #111;
+}
 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.hero {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+.hero p {
+    color: #555;
+    font-size: 18px;
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.rank-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.button {
+    display: inline-block;
+    background: #111;
+    color: white;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
